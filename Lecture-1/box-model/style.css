@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+div{
+/* box-sizing: content-box; */
+
+    background-color: lightsalmon;
+
+    width: 100px;
+    height: 100px;
+
+    padding: 10px;
+
+    border: 5px solid black;
+
+    /* margin: 10px; */
+}

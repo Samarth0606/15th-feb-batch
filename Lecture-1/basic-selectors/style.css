@@ -1,0 +1,44 @@
+/* 1. element selector */
+
+/* h1{
+    color: red;
+    background-color: blue;
+    font-size: 60px;
+} */
+
+/* ------------------------------------------------- */
+/* 2. id selector */
+/* #sam{
+    border: 5px solid black;
+} */
+
+/* ------------------------------------------------- */
+/* 3. class selector */
+/* .vohra{
+    font-size: 100px;
+    color: pink;
+} */
+
+/* ------------------------------------------------- */
+/* 4. attribute selectors */
+
+
+/* a[href="http://google.com"]{
+    color: green;
+} */
+
+/* input[type="password"]{
+    font-size: 60px;
+}
+input[type="text"]{
+    font-size: 60px;
+}
+input[type="email"]{
+    font-size: 60px;
+} */
+
+/* ------------------------------------------------- */
+/* 5. universal selectors */
+*{
+    border: 1px solid black;
+}
