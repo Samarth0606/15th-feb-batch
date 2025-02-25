@@ -1,0 +1,29 @@
+/* 1. Descendant */
+
+/* article div h1 span{
+    color: blue;
+} */
+/* -------------------------------- */
+/* 2. child */
+
+/* article > div > h1 > span{
+    color: red;
+} */
+
+/* -------------------------------- */
+/* article h1>span{
+    border: 4px solid black;
+} */
+
+/* -------------------------------- */
+/* 3. adjacent sibling (+) */
+/* div  h1 + p{
+    color: purple;
+} */
+
+
+/* -------------------------------- */
+/* 4. general sibling (~ = tilde) */
+/* div > h1 ~ p{
+    color: lightgreen;
+} */

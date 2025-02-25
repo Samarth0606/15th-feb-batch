@@ -1,0 +1,25 @@
+p::first-letter{
+    font-size: 80px;
+    color: red;
+}
+
+p::first-line{
+    font-family: cursive;
+}
+
+li{
+    list-style: none;
+}
+
+/* unicode */
+li::before{
+    content: "\1F609";
+    /* U+1F609 */
+}
+li::after{
+    content: "\1F621";
+}
+
+p > span{
+    font-size: 100px;
+}

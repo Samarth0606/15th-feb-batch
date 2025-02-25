@@ -1,0 +1,54 @@
+/* div{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+}
+
+div:hover{
+    background-color: lime;
+    border-radius: 50%;
+}
+
+input{
+    background-color: orange;
+}
+
+input:focus{
+    background-color: brown;
+}
+
+a{
+    color: red;
+    font-size: 70px;
+}
+
+a:active{
+    font-size: 100px;
+    color: mediumvioletred;
+}
+button{
+    font-size: 50px;
+}
+button:active{
+    font-size: 100px;
+} */
+
+/* a:visited{
+    color: red;
+} */
+
+
+/* li:nth-of-type(3){
+   color: red;
+} */
+/* 
+li:nth-of-type(odd){
+   color: red;
+}
+
+li:nth-of-type(even){
+   color: green;
+} */
+
+
