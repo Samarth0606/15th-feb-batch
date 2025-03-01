@@ -1,0 +1,88 @@
+div{
+    width: 500px;
+    border: 2px solid black;
+    background-color: lightcyan;
+    margin: 0 auto;
+}
+h1{
+    color: red;
+    text-align: center;
+}
+p{
+    font-family: cursive;
+}
+
+
+/* @media screen and (width:700px) { */
+
+
+/* @media screen and (max-width:900px) {
+    h1{
+        color: pink;
+    }
+    p{
+        font-size: 80px;
+    }
+}
+
+@media screen and (max-width:700px) {
+    h1{
+        color: green;
+    }
+    p{
+        font-size: 30px;
+    }
+} */
+
+
+/* @media screen and (min-width:700px) {
+    h1{
+        color: pink;
+    }
+    p{
+        font-size: 80px;
+    }
+}
+
+@media screen and (min-width:900px) {
+    h1{
+        color: green;
+    }
+    p{
+        font-size: 30px;
+    }
+} */
+
+/* --------------------------------------------- */
+/* portrait -> h>w
+landscape -> w>h */
+/* --------------------------------------------- */
+
+/* 
+@media screen and (orientation:portrait){
+    h1{
+        font-size: 100px;
+        color: green;
+    }
+} */
+
+
+/* @media screen and (orientation:landscape){
+    h1{
+        font-size: 20px;
+        color: pink;
+        font-family: monospace;
+    }
+} */
+
+/* ------------------------------------------ */
+
+
+
+@media screen and (max-width:700px) , (orientation:landscape){
+    h1{
+        color: red;
+        border: 2px solid black;
+    }
+}
+

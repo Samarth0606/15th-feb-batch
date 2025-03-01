@@ -1,0 +1,33 @@
+div{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    margin: 10px;
+    display: inline-block;
+}
+
+#absolute{
+    border: 1px solid black;
+    position: relative;
+}
+#absolute #middle{
+    position: absolute;
+    /* top: 50px; */
+}
+
+
+#fixed #middle{
+    /* position: fixed; */
+    top: 100px;
+}
+
+#sticky{
+    height: 500px;
+    border: 5px solid brown;
+}
+
+#sticky #middle{
+    position: sticky;
+    top: 50px;
+    /* left: 10px; */
+}

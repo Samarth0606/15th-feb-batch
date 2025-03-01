@@ -1,0 +1,48 @@
+div{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+
+    /* child property */
+    /* display: inline-block; */
+}
+
+#container{
+    border: 1px solid black;
+    height: 90vh;
+    /* parent property */
+    display:flex;
+    flex-direction: row;
+    /* flex-direction: column; */
+    /* justify-content: flex-end; */
+    /* justify-content: center; */
+    /* justify-content: space-around;
+    justify-content: space-between;
+    justify-content: space-evenly; */
+    /* align-items: center; */
+
+    /* flex-wrap: nowrap; */
+    /* flex-wrap: wrap;
+    align-content: flex-start; */
+    /* align-content: center;
+    align-content: flex-end; */
+    /* row-gap: 50px;
+    column-gap: 20px;
+    gap: 10px; */
+
+}
+
+
+#child2{
+    /* flex-grow: 4; */
+    flex-shrink: 5;
+    align-self: center;
+}
+
+#child4{
+    /* flex-grow: 1; */
+    flex-shrink: 2;
+    align-self: flex-end;
+}
+
+
