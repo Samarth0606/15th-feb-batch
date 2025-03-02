@@ -1,0 +1,41 @@
+
+#container{
+    border: 2px solid red;
+    width: 90vw;
+    
+}
+div{
+    width: 100px;
+    height: 100px;
+    background-color: beige;
+    border: 1px solid black;
+    animation-name: loading;
+    animation-duration: 4s;
+    animation-play-state: running;
+    animation-direction: reverse;
+}
+section:hover div{
+    animation-play-state: paused;
+}
+@keyframes loading {
+    from{
+        width: 100px;
+    }
+    to{
+        width: 100%;
+    }
+}
+
+.linear{
+    animation-timing-function: linear;
+}
+.ease-in{
+    animation-timing-function: ease-in;
+}
+.ease-out{
+    animation-timing-function: ease-out;
+}
+.ease-in-out{
+    animation-timing-function: ease-in-out;
+}
+

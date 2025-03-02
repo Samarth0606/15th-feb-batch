@@ -1,0 +1,21 @@
+div{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: red;
+    margin: 100px auto;
+
+    animation-name: drop;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes drop {
+    0%{
+       transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(300px);
+    }
+}   
