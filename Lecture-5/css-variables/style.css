@@ -1,0 +1,26 @@
+
+:root{
+    --red-color: green;
+    --font-75: 45px;
+}
+
+
+h1{
+    color: var(--red-color);
+    font-size: var(--font-75);
+}
+
+p{
+    border: 2px solid var(--red-color);
+    font-size: var(--font-75);
+}
+div{
+    background-color: var(--red-color);
+    font-size: var(--font-75);
+}
+
+ul{
+    color: var(--red-color);
+    border: 5px solid var(--red-color);
+    font-size: var(--font-75);
+}
